@@ -1,0 +1,25 @@
+INFO [2018-08-29 21:38:41.872727] (CS0): Received opponent offer: {'Price': 10, 'Volume': 4, 'Duration': 3, 'Sender': 'EV0'}
+INFO [2018-08-29 21:38:41.872727] (CS0): Unacceptable opponent offer: 0.275 < 0.686897018545006
+INFO [2018-08-29 21:38:41.876727] (EV0): EV0 previous offer None was REJECTED!
+INFO [2018-08-29 21:38:41.876727] (EV0): Received opponent offer: {'Price': 13.5, 'Volume': 4, 'Duration': 3, 'Sender': 'CS0', 'Avg_Price': 17}
+INFO [2018-08-29 21:38:41.880726] (CS0): Received opponent offer: {'Price': 11.953754764160433, 'Volume': 4, 'Duration': 3, 'Sender': 'EV0', 'Avg_Price': 17}
+INFO [2018-08-29 21:38:41.880726] (CS0): Unacceptable opponent offer: 0.37268773820802165 < 0.7849827897292226
+INFO [2018-08-29 21:38:41.880726] (EV0): EV0 previous offer {'Price': 11.953754764160433, 'Volume': 4, 'Duration': 3, 'Sender': 'EV0', 'Avg_Price': 17} was REJECTED!
+INFO [2018-08-29 21:38:41.880726] (EV0): Received opponent offer: {'Price': 14.476877382080218, 'Volume': 4, 'Duration': 3, 'Sender': 'CS0', 'Avg_Price': 17}
+INFO [2018-08-29 21:38:41.880726] (CS0): Received opponent offer: {'Price': 13.580481993585561, 'Volume': 4, 'Duration': 3, 'Sender': 'EV0', 'Avg_Price': 17}
+INFO [2018-08-29 21:38:41.880726] (CS0): Unacceptable opponent offer: 0.4540240996792781 < 0.7378838223454692
+INFO [2018-08-29 21:38:41.880726] (EV0): EV0 previous offer {'Price': 13.580481993585561, 'Volume': 4, 'Duration': 3, 'Sender': 'EV0', 'Avg_Price': 17} was REJECTED!
+INFO [2018-08-29 21:38:41.880726] (EV0): Received opponent offer: {'Price': 15.29024099679278, 'Volume': 4, 'Duration': 3, 'Sender': 'CS0', 'Avg_Price': 17}
+Using 1 with 0.9526709775923468
+INFO [2018-08-29 21:38:41.884725] (CS0): Received opponent offer: {'Price': 15.294897279939015, 'Volume': 4, 'Duration': 3, 'Sender': 'EV0', 'Avg_Price': 17}
+INFO [2018-08-29 21:38:41.884725] (CS0): Unacceptable opponent offer: 0.5397448639969508 < 0.6730966063791485
+INFO [2018-08-29 21:38:41.884725] (EV0): EV0 previous offer {'Price': 15.294897279939015, 'Volume': 4, 'Duration': 3, 'Sender': 'EV0', 'Avg_Price': 17} was REJECTED!
+INFO [2018-08-29 21:38:41.884725] (EV0): Received opponent offer: {'Price': 16.147448639969507, 'Volume': 4, 'Duration': 3, 'Sender': 'CS0', 'Avg_Price': 17}
+Using 2 with 0.9561571911457805
+INFO [2018-08-29 21:38:41.884725] (CS0): Received opponent offer: {'Price': 16.211474092552198, 'Volume': 4, 'Duration': 3, 'Sender': 'EV0', 'Avg_Price': 17}
+INFO [2018-08-29 21:38:41.884725] (CS0): Acceptable opponent offer: 0.5855737046276099 > 0.5555774682841712
+INFO [2018-08-29 21:38:41.884725] (EV0): EV0 previous offer {'Price': 16.211474092552198, 'Volume': 4, 'Duration': 3, 'Sender': 'EV0', 'Avg_Price': 17} was ACCEPTED!
+INFO [2018-08-29 21:38:41.884725] (EV0): Received opponent offer: {'Price': 16.211474092552198, 'Volume': 4, 'Duration': 3, 'Sender': 'EV0', 'Avg_Price': 17}
+INFO [2018-08-29 21:38:41.972702] (CS0): Stopping...
+INFO [2018-08-29 21:38:42.004694] (EV0): Stopping...
+NS shut down.

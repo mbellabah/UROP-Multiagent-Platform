@@ -1,0 +1,48 @@
+C:\Users\bella\AppData\Local\Programs\Python\Python36\python.exe C:/Users/bella/OneDrive/MIT/UROP/Code/__init__.py
+Broadcast server running on 0.0.0.0:9091
+NS running on 127.0.0.1:13577 (127.0.0.1)
+URI = PYRO:Pyro.NameServer@127.0.0.1:13577
+INFO [2018-07-20 13:38:24.512198] (CS0): Received {'Price': 10, 'Volume': 4, 'Duration': 3}
+INFO [2018-07-20 13:38:24.512198] (CS0): Unacceptable Offer: 0.275 < 1.1019535541513106
+INFO [2018-07-20 13:38:24.514195] (EV0): EV0 offer {'Price': 10, 'Volume': 4, 'Duration': 3} was REJECTED!
+8 remaining, so 1.2104129647913955
+INFO [2018-07-20 13:38:24.515693] (CS0): Received {'Price': 17.157603775918034, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17}
+INFO [2018-07-20 13:38:24.515693] (CS0): Unacceptable Offer: 0.6328801887959017 < 1.1019535541513106
+INFO [2018-07-20 13:38:24.516691] (EV0): EV0 offer {'Price': 17.157603775918034, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17} was REJECTED!
+7 remaining, so 1.35774615007678
+INFO [2018-07-20 13:38:24.518686] (CS0): Received {'Price': 23.081684551305262, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17}
+INFO [2018-07-20 13:38:24.518686] (CS0): Unacceptable Offer: 0.9290842275652631 < 1.1019535541513106
+INFO [2018-07-20 13:38:24.520680] (EV0): EV0 offer {'Price': 23.081684551305262, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17} was REJECTED!
+6 remaining, so 1.440962089776837
+INFO [2018-07-20 13:38:24.522181] (CS0): Received {'Price': 24.496355526206226, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17}
+INFO [2018-07-20 13:38:24.522181] (CS0): Unacceptable Offer: 0.9998177763103113 < 1.1019535541513106
+INFO [2018-07-20 13:38:24.523679] (EV0): EV0 offer {'Price': 24.496355526206226, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17} was REJECTED!
+5 remaining, so 1.4798269007527372
+INFO [2018-07-20 13:38:24.525175] (CS0): Received {'Price': 25.157057312796532, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17}
+INFO [2018-07-20 13:38:24.525675] (CS0): Unacceptable Offer: 1.0328528656398266 < 1.1019535541513106
+INFO [2018-07-20 13:38:24.526671] (EV0): EV0 offer {'Price': 25.157057312796532, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17} was REJECTED!
+4 remaining, so 1.49467191925751
+INFO [2018-07-20 13:38:24.528168] (CS0): Received {'Price': 25.40942262737767, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17}
+INFO [2018-07-20 13:38:24.528667] (CS0): Unacceptable Offer: 1.0454711313688834 < 1.1019535541513106
+INFO [2018-07-20 13:38:24.529668] (EV0): EV0 offer {'Price': 25.40942262737767, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17} was REJECTED!
+3 remaining, so 1.4990496327075997
+INFO [2018-07-20 13:38:24.531164] (CS0): Received {'Price': 25.483843756029195, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17}
+INFO [2018-07-20 13:38:24.531164] (CS0): Unacceptable Offer: 1.0491921878014596 < 1.1019535541513106
+INFO [2018-07-20 13:38:24.532163] (EV0): EV0 offer {'Price': 25.483843756029195, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17} was REJECTED!
+2 remaining, so 1.4999165296465677
+INFO [2018-07-20 13:38:24.533658] (CS0): Received {'Price': 25.498581003991653, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17}
+INFO [2018-07-20 13:38:24.533658] (CS0): Unacceptable Offer: 1.0499290501995826 < 1.1019535541513106
+INFO [2018-07-20 13:38:24.534658] (EV0): EV0 offer {'Price': 25.498581003991653, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17} was REJECTED!
+1 remaining, so 1.4999986957221432
+INFO [2018-07-20 13:38:24.536655] (CS0): Received {'Price': 25.49997782727643, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17}
+INFO [2018-07-20 13:38:24.536655] (CS0): Unacceptable Offer: 1.0499988913638216 < 1.1019535541513106
+INFO [2018-07-20 13:38:24.538150] (EV0): EV0 offer {'Price': 25.49997782727643, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17} was REJECTED!
+0 remaining, so 1.5
+INFO [2018-07-20 13:38:24.539646] (CS0): Received {'Price': 25.5, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17}
+INFO [2018-07-20 13:38:24.539646] (CS0): Unacceptable Offer: 1.05 < 1.1019535541513106
+INFO [2018-07-20 13:38:24.540648] (EV0): EV0 chooses to opt out
+INFO [2018-07-20 13:38:24.595544] (CS0): Stopping...
+INFO [2018-07-20 13:38:24.638963] (EV0): Stopping...
+NS shut down.
+
+Process finished with exit code 0

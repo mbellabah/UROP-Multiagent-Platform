@@ -1,0 +1,36 @@
+C:\Users\bella\AppData\Local\Programs\Python\Python36\python.exe C:/Users/bella/OneDrive/MIT/UROP/Code/__init__.py
+Broadcast server running on 0.0.0.0:9091
+NS running on 127.0.0.1:16883 (127.0.0.1)
+URI = PYRO:Pyro.NameServer@127.0.0.1:16883
+INFO [2018-07-20 13:41:25.664758] (CS0): Received {'Price': 10, 'Volume': 4, 'Duration': 3}
+INFO [2018-07-20 13:41:25.664758] (CS0): Unacceptable Offer: 0.275 < 1.0499029389969554
+INFO [2018-07-20 13:41:25.666757] (EV0): EV0 offer {'Price': 10, 'Volume': 4, 'Duration': 3} was REJECTED!
+5 remaining, so 1.0432983960607007
+INFO [2018-07-20 13:41:25.668254] (CS0): Received {'Price': 14.788754764160435, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17}
+INFO [2018-07-20 13:41:25.668254] (CS0): Unacceptable Offer: 0.5144377382080219 < 1.0499029389969554
+INFO [2018-07-20 13:41:25.669250] (EV0): EV0 offer {'Price': 14.788754764160435, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17} was REJECTED!
+4 remaining, so 1.0934103697564717
+INFO [2018-07-20 13:41:25.670251] (CS0): Received {'Price': 18.248030902908692, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17}
+INFO [2018-07-20 13:41:25.670749] (CS0): Unacceptable Offer: 0.6874015451454346 < 1.0499029389969554
+INFO [2018-07-20 13:41:25.671749] (EV0): EV0 offer {'Price': 18.248030902908692, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17} was REJECTED!
+3 remaining, so 1.1526709775923467
+INFO [2018-07-20 13:41:25.673743] (CS0): Received {'Price': 19.595406619069895, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17}
+INFO [2018-07-20 13:41:25.673743] (CS0): Unacceptable Offer: 0.7547703309534948 < 1.0499029389969554
+INFO [2018-07-20 13:41:25.675239] (EV0): EV0 offer {'Price': 19.595406619069895, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17} was REJECTED!
+2 remaining, so 1.2252432877592259
+INFO [2018-07-20 13:41:25.676738] (CS0): Received {'Price': 20.829135891906837, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17}
+INFO [2018-07-20 13:41:25.676738] (CS0): Unacceptable Offer: 0.8164567945953418 < 1.0499029389969554
+INFO [2018-07-20 13:41:25.677236] (EV0): EV0 offer {'Price': 20.829135891906837, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17} was REJECTED!
+1 remaining, so 1.3205738153489968
+INFO [2018-07-20 13:41:25.678736] (CS0): Received {'Price': 22.449754860932945, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17}
+INFO [2018-07-20 13:41:25.678736] (CS0): Unacceptable Offer: 0.8974877430466472 < 1.0499029389969554
+INFO [2018-07-20 13:41:25.680230] (EV0): EV0 offer {'Price': 22.449754860932945, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17} was REJECTED!
+0 remaining, so 1.5
+INFO [2018-07-20 13:41:25.681231] (CS0): Received {'Price': 25.5, 'Volume': 4, 'Duration': 3, 'Avg_Price': 17}
+INFO [2018-07-20 13:41:25.681727] (CS0): Acceptable Offer: 1.05 > 1.0499029389969554
+INFO [2018-07-20 13:41:25.682727] (EV0): EV0 chooses to opt out
+INFO [2018-07-20 13:41:25.727641] (CS0): Stopping...
+INFO [2018-07-20 13:41:25.762577] (EV0): Stopping...
+NS shut down.
+
+Process finished with exit code 0
