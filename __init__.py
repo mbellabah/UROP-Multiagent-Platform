@@ -48,14 +48,14 @@ if __name__ == '__main__':
 
     # System deployment
     agent_main = agent.Main(*count_occurrences(node_pos_))
-    # --> environment = ed.EnvironmentMap(node_pos_, edges_list_, agent_dict=agent_main.agent_dict)
+    environment = ed.EnvironmentMap(node_pos_, edges_list_, agent_dict=agent_main.agent_dict)
 
-    agent_main.run()
+    # agent_main.run()
     # --> environment.render_network()     # iffy: main program runs while pygame is open in separate (non-responsive) thread
 
     # Send the charge request, initialize the negotiation thread
-    agent_main.submit_charge_request('EV0', _initial_offer_0)
-
-    # Shutdown all communications
-    agent_main.ns.shutdown()
+    # agent_main.submit_charge_request('EV0', _initial_offer_0)
+    #
+    # # Shutdown all communications
+    # agent_main.ns.shutdown()
 

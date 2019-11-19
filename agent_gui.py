@@ -105,5 +105,5 @@ class GUI:
     @threaded
     def run(self):
         self.root = tk.Tk()
-        self.app = Application(master=self.root, name=self.name, agent_object = self.agent_object)
+        self.app = Application(master=self.root, name=self.name, agent_object=self.agent_object)
         self.app.mainloop()

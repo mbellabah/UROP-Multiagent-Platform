@@ -7,7 +7,7 @@ import agent_gui as ag
 # TODO: Use the offer object rather than sharing dictionaries
 
 # -> Information marketplace?
-
+GUI = False
 
 # MARK: Signals
 MAIN_CHANNEL = 'main'   # Main channel by which all agents communicate
@@ -81,8 +81,9 @@ class ChargingStation(Agent):
         self.transaction_log = defaultdict(list)    # Looks like date: list(n_connected_EVs)
 
         # MARK: GUI
-        self.gui = ag.GUI(name=self.name, agent_object=self)
-        self.gui.run()
+        if GUI:
+            self.gui = ag.GUI(name=self.name, agent_object=self)
+            self.gui.run()
 
         # MARK: Communication
         self.bind('PUB', alias=MAIN_CHANNEL)
@@ -179,7 +180,7 @@ class ChargingStation(Agent):
             # consistent with the discounting on the part of the CS agent
 
         A = 0.95    # Threshold charge value
-        duty_cycle = 0.75   # What really is this?
+        duty_cycle = 0.75
 
         discount_factor = self.discount_factor_appropriate()
 
@@ -250,8 +251,9 @@ class ElectricVehicle(Agent):
         self.transaction_log = defaultdict(list)
 
         # MARK: GUI
-        self.gui = ag.GUI(name=self.name, agent_object=self)
-        self.gui.run()
+        if GUI:
+            self.gui = ag.GUI(name=self.name, agent_object=self)
+            self.gui.run()
 
         # MARK: Communication
         self.bind('PUB', MAIN_CHANNEL)
